@@ -1,0 +1,200 @@
+span.price-lg {
+    color: #C40000 !important;
+    font-size: 22px;
+    font-weight: bold;
+    border-bottom: 1px dotted #F2F6FF;
+}
+
+span.price {
+    color: #f0ad4e;
+!important;
+    font-size: 12px;
+    font-weight: bold;
+    border-bottom: 1px dotted #F2F6FF;
+}
+
+span.total {
+    color: #f0ad4e;
+!important;
+    font-size: 12px;
+    font-weight: bold;
+    border-bottom: 1px dotted #F2F6FF;
+}
+
+/*首页产品项*/
+div.productItem {
+    width: 189px;
+    height: 285px;
+    border: 1px solid white;
+    background-color: white;
+    margin: 8px 4px;
+    float: left;
+    cursor: pointer;
+}
+
+a.productItemDescLink {
+    display: inline-block;
+    height: 66px;
+}
+
+div.productItem:hover {
+    border: 1px solid #C40000;
+}
+
+div.productItem span.productItemDesc {
+    font-size: 12px;
+    color: #666666;
+    display: block;
+    padding: 16px;
+}
+
+div.productItem span.productPrice {
+    font-size: 16px;
+    color: #FF003A;
+    display: block;
+    padding-left: 16px;
+    margin-top: -10px;
+}
+
+div.productItem img {
+    width: 187px;
+    height: 190px;
+}
+
+div.productItem img:hover {
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+/*模态窗口*/
+div.loginDivInProductPageModalDiv {
+    width: 350px;
+}
+
+div.deleteConfirmModalDiv {
+    width: 350px;
+}
+
+div.loginDivInProductPage {
+    background-color: white;
+    width: 350px;
+    height: 400px;
+    padding: 60px 25px 80px 25px;
+}
+
+/*模态登陆窗口的errorDiv*/
+div.loginErrorMessageDiv {
+    width: 300px;
+    position: absolute;
+    top: 20px;
+    display: none;
+}
+
+div.loginErrorMessageDiv div.alert {
+    padding: 5px !important;
+}
+
+/*购物车*/
+div.cartFoot {
+    background-color: #9d9d9d;
+}
+
+tr.oderItemTR {
+    display: none;
+}
+
+/*产品页图片*/
+.singleDiv {
+    height: 250px;
+}
+.singleDiv img {
+    height: 100%;
+    width: 100%;
+}
+.detailDIV {
+    width: 100%;
+}
+.detailDIV img {
+    width: 100%;
+}
+div.productInfoDiv {
+    height: 300px;
+    border:1px solid #FAF9F9;
+}
+/*结算页输入*/
+div.address {
+    margin: 20px 5px;
+    text-align: left;
+}
+
+div.addressTip, div.productListTip {
+    color: #333333;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+table.addressTable {
+    margin: 20px 20px;
+    width: 600px;
+}
+
+table.addressTable td.firstColumn {
+    width: 100px;
+}
+
+table.addressTable td {
+    color: #333333;
+    text-align: right;
+    vertical-align: top;
+    padding-right: 5px;
+    text-align: left;
+    height: 30px;
+    font-size:12px;
+}
+
+/*支付成功页面*/
+div.payedDiv {
+    border: 1px solid #D4D4D4;
+    max-width: 1013px;
+    margin: 10px auto 20px auto;
+}
+div.payedTextDiv span {
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+div.payedAddressInfo {
+    padding: 26px 35px;
+}
+
+div.payedAddressInfo li {
+    background-image: url("../../img/site/li_dot.png");
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-attachment: scroll;
+    background-position: 0px 13px;
+    list-style-type: none;
+    color: #333333;
+    padding-left: 15px;
+    padding-top: 5px;
+    /* 	background: rgba(0, 0, 0, 0) url("../../img/site/li_dot.png") no-repeat scroll 0 13px; */
+}
+span.payedInfoPrice {
+    color: #B10000;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: arial;
+}
+
+a.payedCheckLink {
+    color: #2D8CBA;
+}
+
+a.payedCheckLink:hover {
+    color: #2D8CBA;
+    text-decoration: underline;
+}
+/**/
+
